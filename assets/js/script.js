@@ -1,6 +1,12 @@
 'use strict';
 
-
+document.addEventListener("DOMContentLoaded", function() {
+  // Check if the user is visiting for the first time and there is no hash in the URL
+  if (!window.location.hash) {
+    // Redirect to #home section
+    window.location.href = window.location.href + "#home";
+  }
+});
 
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
