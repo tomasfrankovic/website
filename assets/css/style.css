@@ -770,7 +770,7 @@ body {
   filter: blur(10px);
 }
 
-.hero-banner { display: none; }
+/*.hero-banner { display: none; }*/
 
 .hero {
   --section-padding: 60px;
